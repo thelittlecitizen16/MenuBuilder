@@ -13,6 +13,7 @@ namespace MenuBuilder_Example
             PrintCitizenOption printCitizen = new PrintCitizenOption();
             Option1 option1 = new Option1();
             ExitOption existOption = new ExitOption();
+
             Validation validation = new Validation();
             ConsoleSystem consoleSystem = new ConsoleSystem();
 
@@ -21,15 +22,17 @@ namespace MenuBuilder_Example
 
             var menu = menuBuilderString
               .AddOption(option1.OptionMessage, option1)
-              .AddOption(existOption.OptionMessage, existOption)
-              .Build();
+              .AddOption(existOption.OptionMessage, existOption);
 
-            MenuOption<string> menuOption = new MenuOption<string>(menu, "new menu");
 
             var menu2 = menuBuilderInt
-                .AddOption(1, menuOption)
+                .AddOption(1, new MenuOption<string>(menu.Build(), "new menu"))
                 .AddOption(2, printCitizen)
                 .AddOption(3, existOption)
+                .Build();
+
+            menu
+                .AddOption("return to previous menu", new MenuOption<int>(menu2, "new menu"))
                 .Build();
 
             menu2.RunMenu();

@@ -29,7 +29,7 @@ namespace MenuBuilder
                 }
                 else
                 {
-                    _system.Write(option.Value.OptionMessage);
+                    _system.Write(option.Key.ToString());
                 }
             }
         }
@@ -45,7 +45,6 @@ namespace MenuBuilder
         {
             _allOptions[(T)Convert.ChangeType(userInput, typeof(T))].Run();
         }
-
 
         public void RunMenu()
         {
@@ -66,7 +65,7 @@ namespace MenuBuilder
             }
             else
             {
-                _system.Write($"There is no options in this menu");
+                _system.Write($"There is no options at all in this menu");
             }
 
             RunMenu();

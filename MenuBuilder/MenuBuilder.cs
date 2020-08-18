@@ -23,6 +23,7 @@ namespace MenuBuilder
             {
                 _allOptions.Add(key, option);
             }
+
             return this;
         }
 

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBuilder", "MenuBuilder\MenuBuilder.csproj", "{DAC388B0-73F5-40D8-B4A6-0C882DAB71B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuBuilder", "MenuBuilder\MenuBuilder.csproj", "{DAC388B0-73F5-40D8-B4A6-0C882DAB71B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBuilder-Example", "MenuBuilder-Example\MenuBuilder-Example.csproj", "{1BC4FDAF-F9E6-4BC9-A5ED-E700879DA745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuBuilder-Example", "MenuBuilder-Example\MenuBuilder-Example.csproj", "{1BC4FDAF-F9E6-4BC9-A5ED-E700879DA745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
