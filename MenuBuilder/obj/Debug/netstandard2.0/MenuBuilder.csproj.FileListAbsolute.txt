@@ -1,0 +1,4 @@
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder\obj\Debug\netstandard2.0\MenuBuilder.csprojAssemblyReference.cache
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder\obj\Debug\netstandard2.0\MenuBuilder.AssemblyInfoInputs.cache
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder\obj\Debug\netstandard2.0\MenuBuilder.AssemblyInfo.cs
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder\obj\Debug\netstandard2.0\MenuBuilder.csproj.CoreCompileInputs.cache

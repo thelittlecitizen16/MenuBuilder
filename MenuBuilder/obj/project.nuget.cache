@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0gupzLWuYBtPNF5M4Id6egsIclUvf0HN9zbP37b9MLPlveHj5YjaHPfkNfuGk+UDmzdeYpIjDoRfgK6QELynLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thelittlecitizen16\\Desktop\\שבוע שני\\menu\\MenuBuilder\\MenuBuilder\\MenuBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thelittlecitizen16\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thelittlecitizen16\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
