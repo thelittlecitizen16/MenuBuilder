@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MenuBuilder
 {
-    class ConsoleSystem : ISystem
+   public class ConsoleSystem : ISystem
     {
         public string ReadString()
         {

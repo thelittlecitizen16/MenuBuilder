@@ -4,7 +4,7 @@ using System.Text;
 using MenuBuilder.Interfaces;
 
 
-namespace MenuBuilder
+namespace MenuBuilder.Options
 {
     public class MenuOption<T> : IOption
     {

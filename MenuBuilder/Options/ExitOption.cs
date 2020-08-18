@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using MenuBuilder.Interfaces;
 using System.Text;
 
-namespace MenuBuilder
+namespace MenuBuilder.Options
 {
-    public class ExistOption : IOption
+    public class ExitOption : IOption
     {
-        public string OptionMessage => "Exist From Application";
+        public string OptionMessage => "Exit From Application";
+
 
         public void Run()
         {

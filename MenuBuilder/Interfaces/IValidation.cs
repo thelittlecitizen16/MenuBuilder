@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MenuBuilder.Interfaces
 {
-    public interface IValidation<T>
+    public interface IValidation
     {
-        bool CheckUserInput(string userInut, List<T> allInputOptions);
+        bool CheckUserInput(string userInut, List<string> allInputOptions);
 
     }
 }

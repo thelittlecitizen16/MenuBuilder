@@ -1,0 +1,16 @@
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.AssemblyInfoInputs.cache
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.AssemblyInfo.cs
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.csproj.CoreCompileInputs.cache
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.exe
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.deps.json
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.runtimeconfig.json
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.runtimeconfig.dev.json
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.dll
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder-Example.pdb
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder.dll
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\bin\Debug\netcoreapp3.1\MenuBuilder.pdb
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.csprojAssemblyReference.cache
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.csproj.CopyComplete
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.dll
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.pdb
+C:\Users\thelittlecitizen16\Desktop\שבוע שני\menu\MenuBuilder\MenuBuilder-Example\obj\Debug\netcoreapp3.1\MenuBuilder-Example.genruntimeconfig.cache

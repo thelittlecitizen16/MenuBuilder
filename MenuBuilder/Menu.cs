@@ -8,11 +8,11 @@ namespace MenuBuilder
 {
     public class Menu<T> : IMenu<T>
     {
-        public Dictionary<T, IOption> _allOptions;
+        private Dictionary<T, IOption> _allOptions;
         private ISystem _system;
-        private IValidation<T> _validation;
+        private IValidation _validation;
 
-        public Menu(Dictionary<T, IOption> allOptions, ISystem system, IValidation<T> validation)
+        public Menu(Dictionary<T, IOption> allOptions, ISystem system, IValidation validation)
         {
             _allOptions = allOptions;
             _system = system;
@@ -36,7 +36,7 @@ namespace MenuBuilder
 
         private bool CheckUserInput(string userInput)
         {
-            List<T> keys = _allOptions.Keys.ToList();
+            List<string> keys = _allOptions.Keys.Select(k => k.ToString()).ToList();
 
             return _validation.CheckUserInput(userInput, keys);
         }

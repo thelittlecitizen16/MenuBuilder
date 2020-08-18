@@ -5,21 +5,25 @@ using System.Text;
 
 namespace MenuBuilder
 {
-   internal class MenuBuilder<T>
+   public class MenuBuilder<T>
     {
         private Dictionary<T, IOption> _allOptions;
         private ISystem _system;
-        private IValidation<T> _validation;
-        public MenuBuilder(ISystem system, IValidation<T> validation)
+        private IValidation _validation;
+        public MenuBuilder(ISystem system, IValidation validation)
         {
             _allOptions = new Dictionary<T, IOption>();
             _system = system;
             _validation = validation;
         }
 
-        public void AddOption(T key, IOption option)
+        public MenuBuilder<T> AddOption(T key, IOption option)
         {
-            _allOptions.Add(key, option);
+            if (!_allOptions.ContainsKey(key))
+            {
+                _allOptions.Add(key, option);
+            }
+            return this;
         }
 
         public Menu<T> Build()
