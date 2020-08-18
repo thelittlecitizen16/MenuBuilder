@@ -23,7 +23,14 @@ namespace MenuBuilder
         {
             foreach (var option in _allOptions)
             {
-                _system.Write(option.Value.OptionMessage);
+                if (option.Key is int)
+                {
+                    _system.Write($"{option.Key} - {option.Value.OptionMessage}");
+                }
+                else
+                {
+                    _system.Write(option.Value.OptionMessage);
+                }
             }
         }
 
